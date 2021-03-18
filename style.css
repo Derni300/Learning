@@ -1,0 +1,19 @@
+body {
+  	background-image: url(vidéos/outerspace.mp4);
+  	background-position: center;
+  	background-size: contain;
+}
+
+video {
+  	object-fit: cover;
+  	width: 100vw;
+  	height: 100vh;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+}
+
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
