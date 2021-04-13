@@ -2,7 +2,7 @@ body {
   margin:auto;
   color:black;
   background-color:white;
-  background-image:url(images/back.png);
+  background-image:url(images/magnifique.jpg);
   background-size: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,15 +10,14 @@ body {
   background-repeat: repeat-y;
 }
 
-p
-{
+p{
   width: 900px; 
   font-family: Georgia, serif;
   margin: auto; 
   border-radius: 12px;
   border: 1px solid black;
   color: #FFFFFF;
-  text-align: center;
+  text-align: left;
   padding: 12px;
   margin-bottom: 20px;
   font-size: 1.4em;
@@ -29,3 +28,37 @@ p
   -moz-transition: all 0.5s;
 }
 
+fieldset{
+  width: 900px; 
+  font-family: Georgia, serif;
+  margin: auto; 
+  border-radius: 12px;
+  border: 1px solid black;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  background:rgba(0,0,0,0.7);
+  opacity: 1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+legend{
+  width: 300px; 
+  font-family: Georgia, serif;
+  margin: auto; 
+  border-radius: 12px;
+  border: 1px solid black;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  background:rgba(0,0,0,1);
+  opacity: 1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
